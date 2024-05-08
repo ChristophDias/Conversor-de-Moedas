@@ -62,7 +62,7 @@ public class Main {
                     System.out.println("O valor de: " + valor + " ARS convertido para real é: " + conversao + " BRL");
                 } else if (opcao != 7) {
                     System.out.println("Opção invalida");
-                } else if (opcao == 7) System.out.println("Finalizando a Aplicação");
+                } else System.out.println("Finalizando a Aplicação");
 
             } catch (Exception e) {
                 System.out.println("Não converter, cheque se vc digitou o valor certo");
